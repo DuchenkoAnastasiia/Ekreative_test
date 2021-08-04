@@ -1,0 +1,155 @@
+.dots {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    position: relative;
+}
+
+.kost {
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.bones_1 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.bones__line2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.bones_2 {
+    display: flex;
+}
+
+.dots_2 {
+    align-self: flex-end;
+}
+
+.bones_3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dots_3 {
+    top: -40px;
+}
+
+.dots_4 {
+    top: 40px;
+}
+
+.bones_4 {
+    display: flex;
+}
+
+.dots_5 {
+    align-self: center;
+}
+
+.dots_6 {
+    align-self: flex-end;
+}
+
+.bones_5 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bones_6 {
+    display: flex;
+    align-items: center;
+}
+
+.cen {
+    position: relative;
+    left: 13%;
+}
+
+@media screen and (max-width: 2560px) {
+    .cen {
+        left: 7.5%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .cen {
+        left: 13.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cen {
+        left: 19%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cen {
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cen {
+        left: 33%;
+    }
+    .dots {
+        width: 13px;
+        height: 13px;
+        margin: 6px;
+    }
+    .kost {
+        padding: 8px;
+        width: 80px;
+        height: 80px;
+        margin: 15px;
+    }
+    .dots_4 {
+        top: 30px;
+    }
+    .dots_3 {
+        top: -25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .dots {
+        width: 10px;
+        height: 10px;
+        margin: 7px;
+    }
+    .kost {
+        width: 75px;
+        height: 75px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .dots {
+        width: 8px;
+        height: 8px;
+        margin: 6px;
+    }
+    .kost {
+        width: 65px;
+        height: 65px;
+        margin: 7px;
+    }
+    .dots_4 {
+        top: 20px;
+    }
+}
